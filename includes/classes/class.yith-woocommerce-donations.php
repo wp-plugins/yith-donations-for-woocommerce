@@ -41,7 +41,7 @@ if( !class_exists( 'YITH_WC_Donations' ) ){
 
             add_action( 'wp_enqueue_scripts', array( $this, 'add_free_frontend_style_script' ) );
             //Add menu field under YITH_PLUGIN
-            add_action( 'yith_wc_donations_premium', array( $this, 'premium_tab' ) );
+           // add_action( 'yith_wc_donations_premium', array( $this, 'premium_tab' ) );
 
             add_filter( 'woocommerce_is_purchasable', array( $this, 'set_donation_purchasable' ), 10, 2 );
            // add_filter( 'woocommerce_add_cart_item', array( $this, 'set_donation_price' ), 20, 1 );
@@ -109,9 +109,9 @@ if( !class_exists( 'YITH_WC_Donations' ) ){
 
             $links[] = '<a href="' . admin_url( "admin.php?page={$this->_panel_page}" ) . '">' . __( 'Settings', 'ywcds' ) . '</a>';
 
-               if ( defined( 'YWCDS_FREE_INIT' ) ) {
+              /* if ( defined( 'YWCDS_FREE_INIT' ) ) {
                    $links[] = '<a href="' . $this->get_premium_landing_uri() . '" target="_blank">' . __( 'Premium Version', 'ywcds' ) . '</a>';
-               }
+               }*/
 
             return $links;
         }
@@ -184,7 +184,7 @@ if( !class_exists( 'YITH_WC_Donations' ) ){
 
             $admin_tabs     =   apply_filters( 'ywcds_add_premium_tab', array(
                         'settings'          =>      __( 'Settings', 'ywcca' ),
-                        'premium-landing'   =>      __( 'Premium Version', 'ywcds' )
+                        //'premium-landing'   =>      __( 'Premium Version', 'ywcds' )
                     ));
 
             $args = array(
