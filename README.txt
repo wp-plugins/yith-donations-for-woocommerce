@@ -1,7 +1,7 @@
 === YITH Donations for WooCommerce ===
 
 Contributors: yithemes
-Tags: woocommerce, ecommerce, donation, project, wordpress, widget, shop, yith, yit, yithemes
+Tags: WooCommerce, ecommerce, donation, WooCommerce donations, cart donation, donations,  project, wordpress, widget, donation widget, shop donation, wordpress donations, wordpress widget donations, paypal donations, paypal donation, woocommerce donate, donate, paypal donate, pay a coffe, shop, yith, yit, yithemes
 Requires at least: 3.5.1
 Tested up to: 4.2.2
 Stable tag: 1.0.0
@@ -12,7 +12,7 @@ YITH Donations for WooCommerce allows you to add donation in your orders.
 
 == Description ==
 
-Add to your shop the possibility for your users to make donations for a good cause or an important solidarity campaigns. Make your users in the position to fill a donation form, make a donation in your site and let them set the amount they want to donate. Now you can do that with YITH Donations for WooCommerce
+Add to your shop the possibility for your users to make donations for a good cause or an important solidarity campaigns. Make your users in the position to fill a donation form, make a donation in your site and let them set the amount they want to donate. Now you can do that with YITH Donations for WooCommerce.
 
 **Main features:**
 
