@@ -13,12 +13,12 @@ $setting    =    array(
         ),
 
         'projecy_name'  =>  array(
-            'name'  =>  __( 'Project Name', 'ywcds'),
-            'desc'  =>  __( 'Enter your Donation Project name', 'ywcds' ),
+            'name'  =>  __( 'Donation Label ', 'ywcds'),
+            'desc'  =>  __( 'Enter your Donation label', 'ywcds' ),
             'type'  =>  'text',
-            'id'    =>  'ywcds_project_title',
-            'std'   =>  __( 'Project 1', 'ywcds' ),
-            'default'   =>  __( 'Project 1', 'ywcds' ),
+            'id'    =>  'ywcds_message_for_donation',
+            'std'   =>  __( 'Enter a donation', 'ywcds' ),
+            'default'   =>  __( 'Enter a donation', 'ywcds' ),
         ),
 
         'select_product_for_donation'   =>  array(

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH Donations for WooCommerce\n"
-"POT-Creation-Date: 2015-07-10 16:30+0100\n"
-"PO-Revision-Date: 2015-07-10 16:30+0100\n"
+"POT-Creation-Date: 2015-08-06 17:55+0100\n"
+"PO-Revision-Date: 2015-08-06 17:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
 "Language: en\n"
@@ -18,116 +18,129 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:110
-#: ../includes/classes/class.yith-woocommerce-donations.php:186
+#: ../includes/classes/class.yith-woocommerce-donations.php:121
+#: ../includes/classes/class.yith-woocommerce-donations.php:205
 msgid "Settings"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:113
-#: ../includes/classes/class.yith-woocommerce-donations.php:187
+#: ../includes/classes/class.yith-woocommerce-donations.php:122
+msgid "Premium live demo"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-donations.php:122
+msgid "Live demo"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-donations.php:127
+#: ../includes/classes/class.yith-woocommerce-donations.php:206
 msgid "Premium Version"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:138
-msgid "Plugin Documentation"
-msgstr ""
-
-#: ../includes/classes/class.yith-woocommerce-donations.php:193
-#: ../includes/classes/class.yith-woocommerce-donations.php:194
+#: ../includes/classes/class.yith-woocommerce-donations.php:212
+#: ../includes/classes/class.yith-woocommerce-donations.php:213
 msgid "Donations"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:226
+#: ../includes/classes/class.yith-woocommerce-donations.php:247
 msgctxt "enhanced select"
 msgid "One result is available, press enter to select it."
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:227
+#: ../includes/classes/class.yith-woocommerce-donations.php:248
 msgctxt "enhanced select"
 msgid "%qty% results are available, use up and down arrow keys to navigate."
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:228
+#: ../includes/classes/class.yith-woocommerce-donations.php:249
 msgctxt "enhanced select"
 msgid "No matches found"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:229
+#: ../includes/classes/class.yith-woocommerce-donations.php:250
 msgctxt "enhanced select"
 msgid "Loading failed"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:230
+#: ../includes/classes/class.yith-woocommerce-donations.php:251
 msgctxt "enhanced select"
 msgid "Please enter 1 or more characters"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:231
+#: ../includes/classes/class.yith-woocommerce-donations.php:252
 msgctxt "enhanced select"
 msgid "Please enter %qty% or more characters"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:232
+#: ../includes/classes/class.yith-woocommerce-donations.php:253
 msgctxt "enhanced select"
 msgid "Please delete 1 character"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:233
+#: ../includes/classes/class.yith-woocommerce-donations.php:254
 msgctxt "enhanced select"
 msgid "Please delete %qty% characters"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:234
+#: ../includes/classes/class.yith-woocommerce-donations.php:255
 msgctxt "enhanced select"
 msgid "You can only select 1 item"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:235
+#: ../includes/classes/class.yith-woocommerce-donations.php:256
 msgctxt "enhanced select"
 msgid "You can only select %qty% items"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:236
+#: ../includes/classes/class.yith-woocommerce-donations.php:257
 msgctxt "enhanced select"
 msgid "Loading more results&hellip;"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:237
+#: ../includes/classes/class.yith-woocommerce-donations.php:258
 msgctxt "enhanced select"
 msgid "Searching&hellip;"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:281
-msgid "YITh WooCommerce Donations"
+#: ../includes/classes/class.yith-woocommerce-donations.php:308
+msgid "YITH Donations for WooCommerce"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:308
+#: ../includes/classes/class.yith-woocommerce-donations.php:341
 msgid "Please enter a valid value"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:309
+#: ../includes/classes/class.yith-woocommerce-donations.php:342
 msgid "Please enter a number"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:310
+#: ../includes/classes/class.yith-woocommerce-donations.php:343
 msgid "You have already added a donation to cart"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:311
+#: ../includes/classes/class.yith-woocommerce-donations.php:344
 msgid "Thanks for your donation"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:312
-#: ../templates/add-donation-form.php:13
+#: ../includes/classes/class.yith-woocommerce-donations.php:345
+#: ../templates/add-donation-form-widget.php:13
 msgid "Add donation"
 msgstr ""
 
-#: ../includes/classes/class.yith-woocommerce-donations.php:421
+#: ../includes/classes/class.yith-woocommerce-donations.php:346
+msgid "Please enter a number >0"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-donations.php:485
+#, php-format
+msgid "Donation ( %s )"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-donations.php:556
 msgid "View Cart"
 msgstr ""
 
 #: ../includes/widgets/class.yith-wc-donations-form-widget.php:14
-msgid "YITH WooCommerce Donations Form"
+msgid "YITH Donations for WooCommerce - Form"
 msgstr ""
 
 #: ../includes/widgets/class.yith-wc-donations-form-widget.php:15
@@ -155,16 +168,16 @@ msgid "General settings"
 msgstr ""
 
 #: ../plugin-options/settings-options.php:16
-msgid "Project Name"
+msgid "Donation Label "
 msgstr ""
 
 #: ../plugin-options/settings-options.php:17
-msgid "Enter your Donation Project name"
+msgid "Enter your Donation label"
 msgstr ""
 
 #: ../plugin-options/settings-options.php:20
 #: ../plugin-options/settings-options.php:21
-msgid "Project 1"
+msgid "Enter a donation"
 msgstr ""
 
 #: ../plugin-options/settings-options.php:27
@@ -193,6 +206,139 @@ msgstr ""
 msgid " Show it"
 msgstr ""
 
-#: ../templates/add-donation-form.php:8
-msgid "Donation for "
+#: ../templates/admin/premium.php:258 ../templates/admin/premium.php:416
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH Donations for WooCommerce%2$s "
+"to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/premium.php:261 ../templates/admin/premium.php:419
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/premium.php:262 ../templates/admin/premium.php:420
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/premium.php:268
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/premium.php:271 ../templates/admin/premium.php:276
+msgid "Minimum and maximum amount"
+msgstr ""
+
+#: ../templates/admin/premium.php:279
+#, php-format
+msgid ""
+"Among the many market requests, many users ask to make a donation of a "
+"specific amount range. The %1$sYITH Donations for WooCommerce%2$s plugin "
+"consider this request, offering you the freedom to receive donations "
+"suitable for your needs."
+msgstr ""
+
+#: ../templates/admin/premium.php:289
+msgid "Cart page"
+msgstr ""
+
+#: ../templates/admin/premium.php:292
+#, php-format
+msgid ""
+" Almost every user looks at the cart page before proceeding with the "
+"checkout: add a donation form in this %1$sstrategic%2$s place of the site to "
+"get more profitable and better results.  "
+msgstr ""
+
+#: ../templates/admin/premium.php:296
+msgid "cart page"
+msgstr ""
+
+#: ../templates/admin/premium.php:303 ../templates/admin/premium.php:308
+msgid "Donations from product pages"
+msgstr ""
+
+#: ../templates/admin/premium.php:311
+#, php-format
+msgid ""
+"With the premium version of the plugin, you will be free to add a donation "
+"form even in the %1$sdetail page%2$s of one or more products of the shop. "
+"And there's more: make the donation mandatory, even for small amount, for "
+"those products of the shop that you want to sell at ridiculous prices, or "
+"for gifts. A small kindness grant from your users."
+msgstr ""
+
+#: ../templates/admin/premium.php:321 ../templates/admin/premium.php:328
+msgid "Payment methods"
+msgstr ""
+
+#: ../templates/admin/premium.php:324
+#, php-format
+msgid ""
+"Set ad hoc payment methods for those who have decided to make a donation "
+"with their order. A useful strategy to diversify the %1$spayment systems%2$s "
+"on the order kinds of your shop."
+msgstr ""
+
+#: ../templates/admin/premium.php:335 ../templates/admin/premium.php:340
+msgid "Text and style"
+msgstr ""
+
+#: ../templates/admin/premium.php:343
+#, php-format
+msgid ""
+"Change the details of the plugin.%3$sIf you don't like the defaults ones, "
+"write the %1$sbest text%2$s for your messages, and customize the %1$sstyle"
+"%2$s of the donation button added by the plugin.%3$sYou can get to the "
+"results you want directly from the settings panel."
+msgstr ""
+
+#: ../templates/admin/premium.php:353 ../templates/admin/premium.php:360
+msgid "Order list"
+msgstr ""
+
+#: ../templates/admin/premium.php:356
+#, php-format
+msgid ""
+"A useful report to find immediately the %1$sorders%2$s of your shop that "
+"contain a %1$sdonation.%2$sA rapid way to find those orders that have "
+"produced extra earnings to your shop."
+msgstr ""
+
+#: ../templates/admin/premium.php:367 ../templates/admin/premium.php:372
+msgid "Widget"
+msgstr ""
+
+#: ../templates/admin/premium.php:375
+#, php-format
+msgid ""
+"With the %1$sYITH Donations for WooCommerce%2$s - Form widget, you will be "
+"free to show in sidebars the total amount of your users' donations.Share "
+"with your followers a significant information that may be always more "
+"surprising."
+msgstr ""
+
+#: ../templates/admin/premium.php:385 ../templates/admin/premium.php:392
+msgid "Shortcode"
+msgstr ""
+
+#: ../templates/admin/premium.php:388
+#, php-format
+msgid ""
+"Use the shortcode available with the premium version of the YITH Donations "
+"for WooCommerce plugin to add the donation form in every place of the pages "
+"of your site. In this way, you will be free to create a %1$stailored page "
+"that encourage your users%2$s to donate a small amount of money."
+msgstr ""
+
+#: ../templates/admin/premium.php:399 ../templates/admin/premium.php:404
+msgid "User email"
+msgstr ""
+
+#: ../templates/admin/premium.php:407
+#, php-format
+msgid ""
+"For every donation, the plugin lets you send an email to %1$sthank the users"
+"%2$s for their donation. Go to the settings panel to change the text of the "
+"email, and write what you think suits the best for your users."
 msgstr ""

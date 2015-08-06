@@ -3,7 +3,7 @@
  * Plugin Name: YITH Donations for WooCommerce
  * Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-donations/
  * Description: YITH Donations for WooCommerce allows you to add donation in your orders.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: YIThemes
  * Author URI: http://yithemes.com/
  * Text Domain: ywcds
@@ -11,7 +11,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Donations for WooCommerce
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 /*  Copyright 2013  Your Inspiration Themes  (email : plugins@yithemes.com)
@@ -71,7 +71,7 @@ if ( defined( 'YWCDS_PREMIUM' ) ) {
 
 
 if ( !defined( 'YWCDS_VERSION' ) ) {
-    define( 'YWCDS_VERSION', '1.0.0' );
+    define( 'YWCDS_VERSION', '1.0.1' );
 }
 
 if ( !defined( 'YWCDS_FREE_INIT' ) ) {
@@ -114,18 +114,26 @@ if ( !function_exists( 'yith_plugin_registration_hook' ) ) {
 register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
 
-if( !function_exists( 'YITH_Donations' ) ){
-    require_once( YWCDS_INC .'functions.yith-wc-donations.php' );
-    require_once( YWCDS_INC .'widgets/class.yith-wc-donations-form-widget.php' );
-    require_once( YWCDS_INC .'classes/class.yith-woocommerce-donations.php' );
+if( !function_exists( 'YITH_Donations' ) ) {
 
-    if( defined( 'YWCDS_PREMIUM' ) && file_exists( YWCDS_INC . 'classes/class.yith-woocommerce-donations-premium.php' ) ){
+    function YITH_Donations()
+    {
+        require_once( YWCDS_INC . 'functions.yith-wc-donations.php' );
+        require_once( YWCDS_INC .'widgets/class.yith-wc-donations-form-widget.php' );
+        require_once( YWCDS_INC . 'classes/class.yith-woocommerce-donations.php' );
 
-        require_once( YWCDS_INC . 'classes/class.yith-woocommerce-donations-premium.php'  );
-        return YITH_WC_Donations_Premium::get_instance();
+        if ( defined( 'YWCDS_PREMIUM' ) && file_exists( YWCDS_INC . 'classes/class.yith-woocommerce-donations-premium.php' ) ) {
+
+            require_once( YWCDS_INC . 'functions.yith-wc-donations-premium.php' );
+            require_once( YWCDS_INC . 'widgets/class.yith-wc-donations-summary-widget.php' );
+            require_once( YWCDS_INC . 'shortcodes/class.yith-wc-donations-shortcode.php' );
+            require_once( YWCDS_INC . 'classes/class.yith-custom-table.php' );
+            require_once( YWCDS_INC . 'classes/class.yith-woocommerce-donations-premium.php' );
+            return YITH_WC_Donations_Premium::get_instance();
+        }
+
+        return YITH_WC_Donations::get_instance();
     }
-
-    return YITH_WC_Donations::get_instance();
 }
 
 

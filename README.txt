@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: WooCommerce, ecommerce, donation, WooCommerce donations, cart donation, donations,  project, wordpress, widget, donation widget, shop donation, wordpress donations, wordpress widget donations, paypal donations, paypal donation, woocommerce donate, donate, paypal donate, pay a coffe, shop, yith, yit, yithemes
 Requires at least: 3.5.1
-Tested up to: 4.2.2
-Stable tag: 1.0.0
+Tested up to: 4.2.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ You will be able to add your donation in your sidebar thanks to a useful widget.
 3. Activate `YITH Donations for WooCommerce` from Plugins page
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Tweak: improvement of donation management
 
 = 1.0.0 =
 

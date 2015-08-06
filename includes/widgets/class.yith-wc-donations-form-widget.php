@@ -11,7 +11,7 @@ if( !class_exists( 'YITH_Donations_Form_Widget' ) ) {
         {
             parent::__construct(
                 'yith_wc_donations_form',
-                __('YITH WooCommerce Donations Form', 'ywcds'),
+                __('YITH Donations for WooCommerce - Form', 'ywcds'),
                 array('description' => __('Add a simple form to add donations into your cart!', 'ywcds'))
             );
         }
@@ -51,12 +51,13 @@ if( !class_exists( 'YITH_Donations_Form_Widget' ) ) {
             $args_form   =   array(
                 'project' =>  get_option( 'ywcds_project_title' ),
                 'button_class'  =>  'button alt',
-                'product_id'    =>  get_option( '_ywcds_donation_product_id' )
+                'product_id'    =>  get_option( '_ywcds_donation_product_id' ),
+                'button_text'   =>  YITH_Donations()->get_message( 'text_button' )
             );
 
             echo $args['before_widget'];
             echo $args['before_title'].$instance['title'].$args['after_title'];
-            echo yith_wcds_get_template( 'add-donation-form.php', $args_form, true );
+            echo yith_wcds_get_template( 'add-donation-form-widget.php', $args_form, true );
             echo $args['after_widget'];
         }
     }

@@ -1,11 +1,11 @@
 
-.ywcds_form_container label{
+.ywcds_amount_field label{
 
     font-weight: bold;
 
 }
 
-.ywcds_form_container .ywcds_button_field .ywcds_submit{
+.ywcds_form_container .ywcds_button_field .ywcds_submit_widget, #ywcds_add_donation_form_single_product .ywcds_amount_field .ywcds_amount_single_product{
 
     margin-top: 10px;
     margin-bottom: 10px;
